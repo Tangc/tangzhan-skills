@@ -1,5 +1,5 @@
 ---
-name: text-to-webpage-converter
+name: tangzhan-webpage-designer
 description: 将任何文本转换为独立的、具有特定设计风格的网页。内置 30+ 种精选设计风格，具备智能风格匹配和有说服力的推荐逻辑。充当您的智能设计顾问。
 ---
 
