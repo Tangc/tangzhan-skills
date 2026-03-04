@@ -61,6 +61,16 @@ npx skills add https://github.com/Tangc/tangzhan-skills --skill agent-retro
 npx skills add https://github.com/Tangc/tangzhan-skills --skill jimeng
 ```
 
+### 7. 飞书语音播报助手 (Feishu Voice TTS)
+**核心功能**：将文本转语音，并通过飞书 `audio` 消息发送给用户。
+*   **能力**：`edge-tts` 合成语音，`ffmpeg` 转 Opus（OGG 容器），调用飞书 API 执行“先上传文件、后发送 audio 消息”。
+*   **适用场景**：需要在飞书里发送可播放语音，而不是文本或普通附件降级消息。
+*   **输出**：飞书语音消息（message_id + file_key 可追踪）。
+
+```bash
+npx skills add https://github.com/Tangc/tangzhan-skills --skill feishu-voice-tts
+```
+
 ---
 
 ## 🤝 交流与反馈
