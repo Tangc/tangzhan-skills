@@ -43,6 +43,24 @@ npx skills add https://github.com/Tangc/tangzhan-skills --skill tangzhan-webpage
 npx skills add https://github.com/Tangc/tangzhan-skills --skill tangzhan-skill-opencodeInsights
 ```
 
+### 5. Agent 每日复盘器 (Agent Retro)
+**核心功能**：按日期复盘 Agent 执行质量并固化改进。
+*   **能力**：读取指定日期会话与工具动作，按 6 维度输出复盘（动作、做对、做错、改进点、用户画像、Agent 画像）。
+*   **输出**：更新 `memory/YYYY-MM-DD.md`，并同步优化 `MEMORY.md`、`USER.md`、`SOUL.md`、`AGENTS.md`，附防重锁文件。
+
+```bash
+npx skills add https://github.com/Tangc/tangzhan-skills --skill agent-retro
+```
+
+### 6. 即梦 AI 出图助手 (Jimeng)
+**核心功能**：调用 Jimeng AI 4.0（火山引擎）进行文生图/图生图，并可选发送至飞书。
+*   **能力**：支持纯文本生成或图片参考生成；可配置宽高比、返回数量、反向提示词等参数。
+*   **输出**：本地图片文件（含时间戳命名）+ 可选飞书发送。
+
+```bash
+npx skills add https://github.com/Tangc/tangzhan-skills --skill jimeng
+```
+
 ---
 
 ## 🤝 交流与反馈
