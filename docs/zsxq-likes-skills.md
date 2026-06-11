@@ -5,6 +5,8 @@
 - `zsxq-homework-likes-export`：统计作业题下所有学员提交的点赞数，导出学员汇总和提交明细 CSV。
 - `zsxq-tuwen-likes-export`：从汇总贴中提取“图文 + 知识星球链接”，确认列表后导出图文点赞明细和按作者汇总 CSV。
 
+如果你想让 Agent 直接替你完成统计，把 [给 Agent 的任务说明](zsxq-likes-agent-readme.md) 发给 Agent，并同时提供你的作业题列表或汇总贴 URL。
+
 ## 安装
 
 ```bash
