@@ -1,0 +1,3 @@
+display_name: 知识星球图文点赞导出
+short_description: 先确认汇总贴图文列表，再导出点赞 CSV
+default_prompt: 读取知识星球汇总贴里的图文链接，确认列表后统计点赞并按作者汇总导出 CSV

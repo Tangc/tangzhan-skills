@@ -1,0 +1,3 @@
+display_name: 知识星球作业点赞导出
+short_description: 精确统计作业提交点赞并导出 CSV
+default_prompt: 导出知识星球某个标签下所有作业题的学员提交点赞统计 CSV

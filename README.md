@@ -71,6 +71,26 @@ npx skills add https://github.com/Tangc/tangzhan-skills --skill jimeng
 npx skills add https://github.com/Tangc/tangzhan-skills --skill feishu-voice-tts
 ```
 
+### 8. 知识星球作业点赞统计 (ZSXQ Homework Likes Export)
+**核心功能**：统计知识星球作业题下所有学员提交的点赞数，并导出 CSV。
+*   **能力**：按作业题抓取学员提交，生成学员汇总表和提交明细表。
+*   **适用场景**：课程、训练营、作业打卡活动的点赞统计。
+*   **说明文档**：[docs/zsxq-likes-skills.md](docs/zsxq-likes-skills.md)
+
+```bash
+npx skills add https://github.com/Tangc/tangzhan-skills --skill zsxq-homework-likes-export
+```
+
+### 9. 知识星球图文点赞统计 (ZSXQ Tuwen Likes Export)
+**核心功能**：从知识星球汇总贴中预览并确认图文链接，再导出点赞明细和按作者汇总 CSV。
+*   **能力**：提取同一段/同一行里的“图文 + 知识星球链接”，确认后统计当前点赞数。
+*   **适用场景**：图文作业、内容共创、社群投稿的点赞排名统计。
+*   **说明文档**：[docs/zsxq-likes-skills.md](docs/zsxq-likes-skills.md)
+
+```bash
+npx skills add https://github.com/Tangc/tangzhan-skills --skill zsxq-tuwen-likes-export
+```
+
 ---
 
 ## 🤝 交流与反馈

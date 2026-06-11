@@ -1,1 +1,11 @@
 ./.opencode
+.DS_Store
+__pycache__/
+outputs/
+*.csv
+*_raw_signed.json
+*_export.json
+*_preview.json
+*_preview.md
+*cookies*.json
+*xaduid*.txt
